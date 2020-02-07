@@ -1,0 +1,14 @@
+.parent {
+    display: flex;
+    flex-flow: column;
+}
+
+.parent > .child {
+    padding: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.orange{
+    background-color: orange;
+}
